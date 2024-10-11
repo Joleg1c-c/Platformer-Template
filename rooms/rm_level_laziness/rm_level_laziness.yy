@@ -1,17 +1,19 @@
 {
   "$GMRoom":"v1",
-  "%Name":"rm_level_2",
+  "%Name":"rm_level_laziness",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_5AE1DAE6_1","path":"rooms/rm_level_2/rm_level_2.yy",},
-    {"name":"inst_4F93A5C0_1","path":"rooms/rm_level_2/rm_level_2.yy",},
-    {"name":"inst_F839FAF_1","path":"rooms/rm_level_2/rm_level_2.yy",},
-    {"name":"inst_667C1FA0_1","path":"rooms/rm_level_2/rm_level_2.yy",},
-    {"name":"inst_1C1B063","path":"rooms/rm_level_2/rm_level_2.yy",},
-    {"name":"inst_4275703D","path":"rooms/rm_level_2/rm_level_2.yy",},
+    {"name":"inst_5AE1DAE6_1","path":"rooms/rm_level_laziness/rm_level_laziness.yy",},
+    {"name":"inst_4F93A5C0_1","path":"rooms/rm_level_laziness/rm_level_laziness.yy",},
+    {"name":"inst_F839FAF_1","path":"rooms/rm_level_laziness/rm_level_laziness.yy",},
+    {"name":"inst_667C1FA0_1","path":"rooms/rm_level_laziness/rm_level_laziness.yy",},
+    {"name":"inst_1C1B063","path":"rooms/rm_level_laziness/rm_level_laziness.yy",},
+    {"name":"inst_4275703D","path":"rooms/rm_level_laziness/rm_level_laziness.yy",},
+    {"name":"inst_56493EA8","path":"rooms/rm_level_laziness/rm_level_laziness.yy",},
+    {"name":"inst_60ABE589","path":"rooms/rm_level_laziness/rm_level_laziness.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -96,11 +98,13 @@
         {"$GMRInstance":"v1","%Name":"inst_5AE1DAE6_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5AE1DAE6_1","objectId":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v1","%Name":"inst_4F93A5C0_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F93A5C0_1","objectId":{"name":"obj_parallax","path":"objects/obj_parallax/obj_parallax.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":70.0,"y":0.0,},
         {"$GMRInstance":"v1","%Name":"inst_667C1FA0_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_667C1FA0_1","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":1587.0,},
+        {"$GMRInstance":"v1","%Name":"inst_56493EA8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56493EA8","objectId":{"name":"Lazy","path":"objects/Lazy/Lazy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1728.0,"y":896.0,},
+        {"$GMRInstance":"v1","%Name":"inst_60ABE589","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60ABE589","objectId":{"name":"Door","path":"objects/Door/Door.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.4168407,"scaleX":3.0,"scaleY":3.0,"x":3712.0,"y":1472.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Template_Messages","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_1C1B063","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C1B063","objectId":{"name":"obj_placeholder_message","path":"objects/obj_placeholder_message/obj_placeholder_message.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_placeholder_message","path":"objects/obj_placeholder_message/obj_placeholder_message.yy",},"propertyId":{"name":"text","path":"objects/obj_placeholder_message/obj_placeholder_message.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"This level is your\\ncanvas to expand\\nWindy Woods into\\nyour own game.\"",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2969.0,"y":1216.0,},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_placeholder_message","path":"objects/obj_placeholder_message/obj_placeholder_message.yy",},"propertyId":{"name":"text","path":"objects/obj_placeholder_message/obj_placeholder_message.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Это лень!\\nОна просто будет тут!\\nNo Russian(.\"",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2944.0,"y":1184.0,},
         {"$GMRInstance":"v1","%Name":"inst_4275703D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4275703D","objectId":{"name":"obj_placeholder_message","path":"objects/obj_placeholder_message/obj_placeholder_message.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_placeholder_message","path":"objects/obj_placeholder_message/obj_placeholder_message.yy",},"propertyId":{"name":"text","path":"objects/obj_placeholder_message/obj_placeholder_message.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Open rm_level_2\\nin GameMaker and\\nstart creating!\"",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":5465.0,"y":1216.0,},
@@ -113,7 +117,7 @@
     {"$GMRTileLayer":"","%Name":"CollisionTiles","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"CollisionTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":34,"SerialiseWidth":149,"TileCompressedData":[
           2,86,15,-147,0,2,86,15,-147,0,2,86,15,-147,0,2,86,15,-147,0,2,86,15,-147,0,2,86,15,-147,0,2,86,15,-147,
           0,2,86,15,-147,0,2,86,15,-147,0,2,86,15,-147,0,2,86,15,-147,0,2,86,15,-147,0,2,86,15,-147,0,2,86,100,
-          -147,74,-2980,86,
+          -147,74,-30,86,3,76,98,78,-40,86,1,0,-105,86,3,87,0,85,-146,86,3,100,74,102,-2649,86,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_world","path":"tilesets/ts_world/ts_world.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"EndGate","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_F839FAF_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_F839FAF_1","objectId":{"name":"obj_end_gate","path":"objects/obj_end_gate/obj_end_gate.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6976.0,"y":1664.0,},
@@ -208,7 +212,7 @@
       ],"depth":1400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Back_Clouds","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Back_Sky","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":1500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Back_Sky","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"rm_level_2",
+  "name":"rm_level_laziness",
   "parent":{
     "name":"Levels",
     "path":"folders/Rooms/Levels.yy",
